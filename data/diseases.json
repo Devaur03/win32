@@ -1,0 +1,1286 @@
+[
+  {
+    "name": "Flu",
+    "symptoms": ["fever", "cough", "sore throat"],
+    "treatment": "Rest, hydration, antiviral medications",
+    "causes": "Influenza virus",
+    "precautions": "Get vaccinated, avoid close contact with sick people"
+  },
+  {
+    "name": "Cold",
+    "symptoms": ["sneezing", "runny nose", "sore throat"],
+    "treatment": "Rest, fluids, over-the-counter medications",
+    "causes": "Rhinovirus",
+    "precautions": "Wash hands frequently, avoid touching face"
+  },
+  {
+    "name": "COVID-19",
+    "symptoms": ["fever", "cough", "difficulty breathing"],
+    "treatment": "Supportive care, antiviral medications, vaccination",
+    "causes": "SARS-CoV-2 virus",
+    "precautions": "Wear masks, social distancing, vaccination"
+  },
+  {
+    "name": "Diabetes",
+    "symptoms": ["increased thirst", "frequent urination", "fatigue"],
+    "treatment": "Insulin therapy, lifestyle changes, medication",
+    "causes": "Insulin resistance or deficiency",
+    "precautions": "Healthy diet, regular exercise"
+  },
+  {
+    "name": "Asthma",
+    "symptoms": ["shortness of breath", "wheezing", "coughing"],
+    "treatment": "Inhalers, steroids, bronchodilators",
+    "causes": "Allergies, environmental factors",
+    "precautions": "Avoid triggers, use prescribed medications"
+  },
+  {
+    "name": "Hypertension",
+    "symptoms": ["often none, headache, shortness of breath"],
+    "treatment": "Medications, lifestyle changes",
+    "causes": "Genetics, poor diet, lack of exercise",
+    "precautions": "Regular monitoring, healthy diet"
+  },
+  {
+    "name": "Allergies",
+    "symptoms": ["sneezing", "itchy eyes", "skin rash"],
+    "treatment": "Antihistamines, corticosteroids",
+    "causes": "Pollen, dust mites, pet dander",
+    "precautions": "Avoid allergens, medication as prescribed"
+  },
+  {
+    "name": "Migraine",
+    "symptoms": ["throbbing headache", "nausea", "sensitivity to light"],
+    "treatment": "Pain relief medications, lifestyle changes",
+    "causes": "Genetics, hormonal changes, environmental factors",
+    "precautions": "Avoid known triggers, maintain hydration"
+  },
+  {
+    "name": "Pneumonia",
+    "symptoms": ["cough", "fever", "difficulty breathing"],
+    "treatment": "Antibiotics, rest, hydration",
+    "causes": "Bacteria, viruses, fungi",
+    "precautions": "Vaccination, avoid smoking"
+  },
+  {
+    "name": "Gastroenteritis",
+    "symptoms": ["diarrhea", "vomiting", "abdominal pain"],
+    "treatment": "Hydration, rest, anti-nausea medications",
+    "causes": "Infections, food poisoning",
+    "precautions": "Good hygiene, safe food handling"
+  },
+  {
+    "name": "Chronic Kidney Disease",
+    "symptoms": ["fatigue", "swelling", "changes in urination"],
+    "treatment": "Diet, medications, dialysis",
+    "causes": "Diabetes, hypertension",
+    "precautions": "Regular check-ups, healthy lifestyle"
+  },
+  {
+    "name": "Heart Disease",
+    "symptoms": ["chest pain", "shortness of breath", "fatigue"],
+    "treatment": "Medications, lifestyle changes, surgery",
+    "causes": "Genetics, poor diet, lack of exercise",
+    "precautions": "Healthy diet, regular exercise, avoid smoking"
+  },
+  {
+    "name": "Stroke",
+    "symptoms": ["sudden numbness", "confusion", "trouble speaking"],
+    "treatment": "Emergency medical care, rehabilitation",
+    "causes": "Blocked blood flow to the brain",
+    "precautions": "Control blood pressure, avoid smoking"
+  },
+  {
+    "name": "Osteoporosis",
+    "symptoms": ["bone fractures", "loss of height", "back pain"],
+    "treatment": "Medications, calcium and vitamin D supplements",
+    "causes": "Age, hormonal changes",
+    "precautions": "Weight-bearing exercise, balanced diet"
+  },
+  {
+    "name": "Arthritis",
+    "symptoms": ["joint pain", "stiffness", "swelling"],
+    "treatment": "Pain relief medications, physical therapy",
+    "causes": "Age, genetics, previous joint injuries",
+    "precautions": "Maintain a healthy weight, stay active"
+  },
+  {
+    "name": "Hepatitis",
+    "symptoms": ["fatigue", "jaundice", "abdominal pain"],
+    "treatment": "Antiviral medications, lifestyle changes",
+    "causes": "Viral infections, alcohol use",
+    "precautions": "Vaccination, safe practices"
+  },
+  {
+    "name": "HIV/AIDS",
+    "symptoms": ["fatigue", "fever", "swollen lymph nodes"],
+    "treatment": "Antiretroviral therapy",
+    "causes": "HIV virus",
+    "precautions": "Safe sex practices, regular testing"
+  },
+  {
+    "name": "Tuberculosis",
+    "symptoms": ["persistent cough", "weight loss", "night sweats"],
+    "treatment": "Antibiotics over several months",
+    "causes": "Mycobacterium tuberculosis bacteria",
+    "precautions": "Vaccination, avoid close contact with infected individuals"
+  },
+  {
+    "name": "Chickenpox",
+    "symptoms": ["itchy rash", "fever", "fatigue"],
+    "treatment": "Rest, hydration, antihistamines",
+    "causes": "Varicella-zoster virus",
+    "precautions": "Vaccination, avoid close contact"
+  },
+  {
+    "name": "Shingles",
+    "symptoms": ["painful rash", "itching", "fever"],
+    "treatment": "Antiviral medications, pain relief",
+    "causes": "Reactivation of varicella-zoster virus",
+    "precautions": "Vaccination, reduce stress"
+  },
+  {
+    "name": "Peptic Ulcer",
+    "symptoms": ["burning stomach pain", "bloating", "nausea"],
+    "treatment": "Antacids, antibiotics if caused by H. pylori",
+    "causes": "H. pylori infection, long-term NSAID use",
+    "precautions": "Avoid irritating foods, manage stress"
+  },
+  {
+    "name": "Celiac Disease",
+    "symptoms": ["diarrhea", "bloating", "fatigue"],
+    "treatment": "Gluten-free diet",
+    "causes": "Genetic predisposition",
+    "precautions": "Avoid gluten-containing foods"
+  },
+  {
+    "name": "Multiple Sclerosis",
+    "symptoms": ["numbness", "muscle weakness", "vision problems"],
+    "treatment": "Medications, physical therapy",
+    "causes": "Autoimmune response",
+    "precautions": "Regular check-ups, manage stress"
+  },
+  {
+    "name": "Alzheimer's Disease",
+    "symptoms": ["memory loss", "confusion", "difficulty with tasks"],
+    "treatment": "Medications, supportive care",
+    "causes": "Age, genetics",
+    "precautions": "Mental stimulation, healthy lifestyle"
+  },
+  {
+    "name": "Parkinson's Disease",
+    "symptoms": ["tremors", "rigidity", "slow movements"],
+    "treatment": "Medications, physical therapy",
+    "causes": "Genetics, environmental factors",
+    "precautions": "Regular exercise, mental stimulation"
+  },
+  {
+    "name": "Lung Cancer",
+    "symptoms": ["coughing up blood", "chest pain", "shortness of breath"],
+    "treatment": "Surgery, chemotherapy, radiation",
+    "causes": "Smoking, exposure to toxins",
+    "precautions": "Avoid smoking, regular screenings"
+  },
+  {
+    "name": "Breast Cancer",
+    "symptoms": ["lump in breast", "changes in breast shape", "nipple discharge"],
+    "treatment": "Surgery, chemotherapy, radiation",
+    "causes": "Genetics, hormonal factors",
+    "precautions": "Regular self-exams, screenings"
+  },
+  {
+    "name": "Prostate Cancer",
+    "symptoms": ["difficulty urinating", "blood in urine", "pelvic pain"],
+    "treatment": "Surgery, radiation, hormone therapy",
+    "causes": "Age, genetics",
+    "precautions": "Regular screenings, healthy diet"
+  },
+  {
+    "name": "Kidney Stones",
+    "symptoms": ["severe pain", "blood in urine", "nausea"],
+    "treatment": "Pain relief, hydration, sometimes surgery",
+    "causes": "Dehydration, high protein diet",
+    "precautions": "Stay hydrated, healthy diet"
+  },
+  {
+    "name": "Gallstones",
+    "symptoms": ["abdominal pain", "nausea", "indigestion"],
+    "treatment": "Medications, surgery if severe",
+    "causes": "Bile concentration",
+    "precautions": "Healthy diet, regular exercise"
+  },
+  {
+    "name": "Diverticulitis",
+    "symptoms": ["abdominal pain", "fever", "nausea"],
+    "treatment": "Diet changes, antibiotics",
+    "causes": "Diverticula inflammation",
+    "precautions": "High-fiber diet, hydration"
+  },
+  {
+    "name": "Anemia",
+    "symptoms": ["fatigue", "pale skin", "shortness of breath"],
+    "treatment": "Iron supplements, dietary changes",
+    "causes": "Iron deficiency, chronic diseases",
+    "precautions": "Balanced diet, regular check-ups"
+  },
+  {
+    "name": "Thyroid Disorders",
+    "symptoms": ["fatigue", "weight changes", "mood swings"],
+    "treatment": "Hormone replacement therapy, medication",
+    "causes": "Genetics, autoimmune disorders",
+    "precautions": "Regular monitoring, healthy diet"
+  },
+  {
+    "name": "Appendicitis",
+    "symptoms": ["abdominal pain", "nausea", "fever"],
+    "treatment": "Surgery",
+    "causes": "Appendix blockage",
+    "precautions": "Seek immediate medical attention"
+  },
+  {
+    "name": "Psoriasis",
+    "symptoms": ["red patches on skin", "itching", "dry skin"],
+    "treatment": "Topical treatments, systemic medications",
+    "causes": "Autoimmune response",
+    "precautions": "Moisturize, avoid triggers"
+  },
+  {
+    "name": "Eczema",
+    "symptoms": ["dry skin", "itching", "red patches"],
+    "treatment": "Moisturizers, topical steroids",
+    "causes": "Genetics, environmental factors",
+    "precautions": "Avoid irritants, moisturize regularly"
+  },
+  {
+    "name": "Rosacea",
+    "symptoms": ["facial redness", "bumps", "burning sensation"],
+    "treatment": "Topical treatments, lifestyle changes",
+    "causes": "Genetics, environmental factors",
+    "precautions": "Avoid triggers, sun protection"
+  },
+  {
+    "name": "Chronic Fatigue Syndrome",
+    "symptoms": ["extreme fatigue", "sleep problems", "muscle pain"],
+    "treatment": "Symptom management, lifestyle changes",
+    "causes": "Unknown, may involve immune system dysfunction",
+    "precautions": "Regular rest, balanced diet"
+  },
+  {
+    "name": "Bipolar Disorder",
+    "symptoms": ["mood swings", "energy changes", "sleep disturbances"],
+    "treatment": "Medications, therapy",
+    "causes": "Genetics, brain structure changes",
+    "precautions": "Regular check-ups, healthy lifestyle"
+  },
+  {
+    "name": "Depression",
+    "symptoms": ["persistent sadness", "loss of interest", "fatigue"],
+    "treatment": "Therapy, medications",
+    "causes": "Genetics, chemical imbalances",
+    "precautions": "Seek support, regular exercise"
+  },
+  {
+    "name": "Anxiety Disorders",
+    "symptoms": ["excessive worry", "restlessness", "difficulty concentrating"],
+    "treatment": "Therapy, medications",
+    "causes": "Genetics, environmental stressors",
+    "precautions": "Mindfulness, regular exercise"
+  },
+  {
+    "name": "Post-Traumatic Stress Disorder",
+    "symptoms": ["flashbacks", "avoidance", "emotional numbness"],
+    "treatment": "Therapy, medications",
+    "causes": "Trauma exposure",
+    "precautions": "Seek therapy, build a support system"
+  },
+  {
+    "name": "Eating Disorders",
+    "symptoms": ["extreme weight changes", "preoccupation with food", "distorted body image"],
+    "treatment": "Therapy, nutritional counseling",
+    "causes": "Genetics, cultural factors",
+    "precautions": "Seek help, build a support system"
+  },
+  {
+    "name": "Attention Deficit Hyperactivity Disorder",
+    "symptoms": ["inattention", "hyperactivity", "impulsivity"],
+    "treatment": "Medications, therapy",
+    "causes": "Genetics, brain structure differences",
+    "precautions": "Seek support, structured routines"
+  },
+  {
+    "name": "Obsessive-Compulsive Disorder",
+    "symptoms": ["intrusive thoughts", "compulsive behaviors"],
+    "treatment": "Therapy, medications",
+    "causes": "Genetics, brain chemistry",
+    "precautions": "Seek therapy, practice mindfulness"
+  },
+  {
+    "name": "Autism Spectrum Disorder",
+    "symptoms": ["communication difficulties", "repetitive behaviors"],
+    "treatment": "Therapy, educational support",
+    "causes": "Genetics, environmental factors",
+    "precautions": "Early intervention, support systems"
+  },
+  {
+    "name": "Seasonal Affective Disorder",
+    "symptoms": ["depression in winter", "fatigue", "social withdrawal"],
+    "treatment": "Light therapy, therapy, medications",
+    "causes": "Seasonal changes",
+    "precautions": "Regular exposure to natural light"
+  },
+  {
+    "name": "Carpal Tunnel Syndrome",
+    "symptoms": ["numbness", "tingling in fingers", "hand weakness"],
+    "treatment": "Wrist splints, physical therapy",
+    "causes": "Repetitive hand movements",
+    "precautions": "Proper ergonomics, regular breaks"
+  },
+  {
+    "name": "Tendinitis",
+    "symptoms": ["pain and stiffness", "swelling", "limited range of motion"],
+    "treatment": "Rest, ice, physical therapy",
+    "causes": "Overuse of muscles and tendons",
+    "precautions": "Avoid repetitive motions, warm-up before activity"
+  },
+  {
+    "name": "Herniated Disc",
+    "symptoms": ["back pain", "numbness", "weakness in limbs"],
+    "treatment": "Rest, physical therapy, sometimes surgery",
+    "causes": "Age, injury",
+    "precautions": "Maintain proper posture, regular exercise"
+  },
+  {
+    "name": "Sciatica",
+    "symptoms": ["lower back pain", "leg pain", "numbness"],
+    "treatment": "Pain relief medications, physical therapy",
+    "causes": "Herniated disc, spinal stenosis",
+    "precautions": "Maintain proper posture, regular exercise"
+  },
+  {
+    "name": "Shin Splints",
+    "symptoms": ["pain along shin bone", "soreness", "swelling"],
+    "treatment": "Rest, ice, physical therapy",
+    "causes": "Overuse, improper footwear",
+    "precautions": "Proper footwear, gradual increase in activity"
+  },
+  {
+    "name": "Achilles Tendonitis",
+    "symptoms": ["pain along back of heel", "swelling", "stiffness"],
+    "treatment": "Rest, ice, physical therapy",
+    "causes": "Overuse, tight calf muscles",
+    "precautions": "Stretching, proper footwear"
+  },
+  {
+    "name": "Plantar Fasciitis",
+    "symptoms": ["heel pain", "stiffness", "swelling"],
+    "treatment": "Rest, ice, stretching exercises",
+    "causes": "Overuse, flat feet",
+    "precautions": "Proper footwear, stretching"
+  },
+  {
+    "name": "Raynaud's Disease",
+    "symptoms": ["cold fingers and toes", "color changes in skin"],
+    "treatment": "Medications, lifestyle changes",
+    "causes": "Blood vessel spasms",
+    "precautions": "Stay warm, avoid stress"
+  },
+  {
+    "name": "Fibromyalgia",
+    "symptoms": ["widespread pain", "fatigue", "sleep disturbances"],
+    "treatment": "Pain relief medications, therapy",
+    "causes": "Unknown, possibly genetic",
+    "precautions": "Regular exercise, stress management"
+  },
+  {
+    "name": "Chronic Bronchitis",
+    "symptoms": ["cough", "mucus production", "shortness of breath"],
+    "treatment": "Bronchodilators, corticosteroids",
+    "causes": "Smoking, air pollution",
+    "precautions": "Avoid smoking, reduce exposure to pollutants"
+  },
+  {
+    "name": "Emphysema",
+    "symptoms": ["shortness of breath", "chronic cough", "wheezing"],
+    "treatment": "Medications, oxygen therapy",
+    "causes": "Smoking, air pollution",
+    "precautions": "Avoid smoking, regular exercise"
+  },
+  {
+    "name": "Liver Cirrhosis",
+    "symptoms": ["fatigue", "jaundice", "swelling in legs"],
+    "treatment": "Lifestyle changes, medications, liver transplant",
+    "causes": "Chronic alcohol use, viral hepatitis",
+    "precautions": "Limit alcohol, regular monitoring"
+  },
+  {
+    "name": "Rheumatoid Arthritis",
+    "symptoms": ["joint pain", "swelling", "fatigue"],
+    "treatment": "Medications, physical therapy",
+    "causes": "Autoimmune response",
+    "precautions": "Early diagnosis, manage stress"
+  },
+  {
+    "name": "Chronic Sinusitis",
+    "symptoms": ["nasal congestion", "facial pain", "cough"],
+    "treatment": "Decongestants, nasal corticosteroids",
+    "causes": "Allergies, infections",
+    "precautions": "Avoid allergens, maintain good hygiene"
+  },
+  {
+    "name": "Kidney Infection",
+    "symptoms": ["pain in lower back", "frequent urination", "fever"],
+    "treatment": "Antibiotics, hydration",
+    "causes": "Bacterial infection",
+    "precautions": "Good hygiene, stay hydrated"
+  },
+  {
+    "name": "Gallbladder Disease",
+    "symptoms": ["abdominal pain", "nausea", "indigestion"],
+    "treatment": "Diet changes, surgery if severe",
+    "causes": "Gallstones, inflammation",
+    "precautions": "Healthy diet, regular exercise"
+  },
+  {
+    "name": "Throat Cancer",
+    "symptoms": ["sore throat", "difficulty swallowing", "lump in neck"],
+    "treatment": "Surgery, radiation, chemotherapy",
+    "causes": "Smoking, alcohol use, HPV",
+    "precautions": "Avoid smoking, limit alcohol"
+  },
+  {
+    "name": "Esophageal Cancer",
+    "symptoms": ["difficulty swallowing", "chest pain", "weight loss"],
+    "treatment": "Surgery, chemotherapy, radiation",
+    "causes": "Smoking, acid reflux",
+    "precautions": "Avoid smoking, manage acid reflux"
+  },
+  {
+    "name": "Stomach Cancer",
+    "symptoms": ["abdominal pain", "nausea", "weight loss"],
+    "treatment": "Surgery, chemotherapy, radiation",
+    "causes": "Helicobacter pylori infection, smoking",
+    "precautions": "Healthy diet, regular screenings"
+  },
+  {
+    "name": "Pancreatic Cancer",
+    "symptoms": ["abdominal pain", "weight loss", "jaundice"],
+    "treatment": "Surgery, chemotherapy, radiation",
+    "causes": "Smoking, genetics",
+    "precautions": "Avoid smoking, healthy lifestyle"
+  },
+  {
+    "name": "Rectal Cancer",
+    "symptoms": ["rectal bleeding", "change in bowel habits", "abdominal pain"],
+    "treatment": "Surgery, chemotherapy, radiation",
+    "causes": "Genetics, lifestyle factors",
+    "precautions": "Regular screenings, healthy diet"
+  },
+  {
+    "name": "Lung Disease",
+    "symptoms": ["cough", "shortness of breath", "wheezing"],
+    "treatment": "Medications, oxygen therapy",
+    "causes": "Smoking, environmental toxins",
+    "precautions": "Avoid smoking, regular exercise"
+  },
+  [
+    {
+      "name": "Diabetes Type 1",
+      "symptoms": ["excessive thirst", "frequent urination", "fatigue"],
+      "treatment": "Insulin therapy, diet management",
+      "causes": "Autoimmune response",
+      "precautions": "Regular monitoring of blood sugar"
+    },
+    {
+      "name": "Diabetes Type 2",
+      "symptoms": ["increased hunger", "fatigue", "blurred vision"],
+      "treatment": "Lifestyle changes, medications",
+      "causes": "Insulin resistance",
+      "precautions": "Healthy diet, regular exercise"
+    },
+    {
+      "name": "Hypertension",
+      "symptoms": ["headaches", "shortness of breath", "nosebleeds"],
+      "treatment": "Medications, lifestyle changes",
+      "causes": "Genetics, high salt intake",
+      "precautions": "Monitor blood pressure regularly"
+    },
+    {
+      "name": "Asthma",
+      "symptoms": ["shortness of breath", "coughing", "wheezing"],
+      "treatment": "Inhalers, medications",
+      "causes": "Allergies, environmental factors",
+      "precautions": "Avoid triggers, regular check-ups"
+    },
+    {
+      "name": "COPD",
+      "symptoms": ["chronic cough", "shortness of breath", "wheezing"],
+      "treatment": "Medications, oxygen therapy",
+      "causes": "Smoking, air pollution",
+      "precautions": "Avoid smoking, regular exercise"
+    },
+    {
+      "name": "Osteoporosis",
+      "symptoms": ["brittle bones", "loss of height", "back pain"],
+      "treatment": "Medications, dietary changes",
+      "causes": "Hormonal changes, aging",
+      "precautions": "Regular weight-bearing exercises"
+    },
+    {
+      "name": "Parkinson's Disease",
+      "symptoms": ["tremors", "stiffness", "slowed movement"],
+      "treatment": "Medications, physical therapy",
+      "causes": "Genetics, environmental factors",
+      "precautions": "Regular exercise, avoid falls"
+    },
+    {
+      "name": "Alzheimer's Disease",
+      "symptoms": ["memory loss", "confusion", "difficulty completing tasks"],
+      "treatment": "Medications, cognitive therapies",
+      "causes": "Age, genetics",
+      "precautions": "Engage in mental exercises"
+    },
+    {
+      "name": "Multiple Sclerosis",
+      "symptoms": ["fatigue", "numbness", "difficulty walking"],
+      "treatment": "Medications, physical therapy",
+      "causes": "Autoimmune response",
+      "precautions": "Avoid stress, regular check-ups"
+    },
+    {
+      "name": "Celiac Disease",
+      "symptoms": ["diarrhea", "bloating", "fatigue"],
+      "treatment": "Gluten-free diet",
+      "causes": "Genetics, immune response to gluten",
+      "precautions": "Strictly avoid gluten"
+    },
+    {
+      "name": "Anemia",
+      "symptoms": ["fatigue", "weakness", "pale skin"],
+      "treatment": "Iron supplements, dietary changes",
+      "causes": "Iron deficiency, chronic disease",
+      "precautions": "Eat iron-rich foods"
+    },
+    {
+      "name": "Gout",
+      "symptoms": ["sudden pain in joints", "redness", "swelling"],
+      "treatment": "Medications, dietary changes",
+      "causes": "High uric acid levels",
+      "precautions": "Limit alcohol, stay hydrated"
+    },
+    {
+      "name": "Hepatitis A",
+      "symptoms": ["fatigue", "nausea", "jaundice"],
+      "treatment": "Rest, hydration",
+      "causes": "Viral infection",
+      "precautions": "Vaccination, good hygiene"
+    },
+    {
+      "name": "Hepatitis B",
+      "symptoms": ["fatigue", "abdominal pain", "jaundice"],
+      "treatment": "Antiviral medications",
+      "causes": "Viral infection",
+      "precautions": "Vaccination, safe practices"
+    },
+    {
+      "name": "Hepatitis C",
+      "symptoms": ["fatigue", "joint pain", "jaundice"],
+      "treatment": "Antiviral medications",
+      "causes": "Viral infection",
+      "precautions": "Avoid sharing needles"
+    },
+    {
+      "name": "Tuberculosis",
+      "symptoms": ["cough", "fever", "weight loss"],
+      "treatment": "Antibiotics",
+      "causes": "Bacterial infection",
+      "precautions": "Complete treatment, good ventilation"
+    },
+    {
+      "name": "Psoriasis",
+      "symptoms": ["red patches on skin", "itching", "dry skin"],
+      "treatment": "Topical treatments, phototherapy",
+      "causes": "Autoimmune response",
+      "precautions": "Moisturize skin, avoid triggers"
+    },
+    {
+      "name": "Eczema",
+      "symptoms": ["dry skin", "itchiness", "redness"],
+      "treatment": "Moisturizers, topical steroids",
+      "causes": "Genetic, environmental factors",
+      "precautions": "Avoid irritants, moisturize regularly"
+    },
+    {
+      "name": "Hives",
+      "symptoms": ["itchy welts", "swelling", "redness"],
+      "treatment": "Antihistamines, avoiding triggers",
+      "causes": "Allergic reactions",
+      "precautions": "Identify and avoid allergens"
+    },
+    {
+      "name": "Lupus",
+      "symptoms": ["fatigue", "joint pain", "skin rashes"],
+      "treatment": "Medications, lifestyle changes",
+      "causes": "Autoimmune response",
+      "precautions": "Regular monitoring, avoid sun exposure"
+    },
+    {
+      "name": "Fibromyalgia",
+      "symptoms": ["widespread pain", "fatigue", "sleep disturbances"],
+      "treatment": "Medications, physical therapy",
+      "causes": "Unknown",
+      "precautions": "Regular exercise, stress management"
+    },
+    {
+      "name": "Irritable Bowel Syndrome (IBS)",
+      "symptoms": ["abdominal pain", "bloating", "diarrhea or constipation"],
+      "treatment": "Dietary changes, medications",
+      "causes": "Unknown",
+      "precautions": "Manage stress, identify triggers"
+    },
+    {
+      "name": "Crohn's Disease",
+      "symptoms": ["abdominal pain", "diarrhea", "fatigue"],
+      "treatment": "Medications, surgery in severe cases",
+      "causes": "Autoimmune response",
+      "precautions": "Avoid trigger foods, regular check-ups"
+    },
+    {
+      "name": "Ulcerative Colitis",
+      "symptoms": ["bloody diarrhea", "abdominal pain", "weight loss"],
+      "treatment": "Medications, surgery in severe cases",
+      "causes": "Autoimmune response",
+      "precautions": "Avoid trigger foods, regular check-ups"
+    },
+    {
+      "name": "Gallstones",
+      "symptoms": ["abdominal pain", "nausea", "indigestion"],
+      "treatment": "Diet changes, surgery if severe",
+      "causes": "Imbalance in substances that make up bile",
+      "precautions": "Healthy diet, regular exercise"
+    },
+    {
+      "name": "Diverticulitis",
+      "symptoms": ["abdominal pain", "fever", "nausea"],
+      "treatment": "Antibiotics, dietary changes",
+      "causes": "Diverticula inflammation",
+      "precautions": "High-fiber diet, hydration"
+    },
+    {
+      "name": "Kidney Stones",
+      "symptoms": ["severe pain", "nausea", "frequent urination"],
+      "treatment": "Pain relief, hydration, possible surgery",
+      "causes": "Concentration of minerals in urine",
+      "precautions": "Stay hydrated, dietary changes"
+    },
+    {
+      "name": "Prostate Cancer",
+      "symptoms": ["difficulty urinating", "blood in urine", "pain in hips"],
+      "treatment": "Surgery, radiation, hormone therapy",
+      "causes": "Genetics, age",
+      "precautions": "Regular screenings, healthy lifestyle"
+    },
+    {
+      "name": "Breast Cancer",
+      "symptoms": ["lump in breast", "changes in breast shape", "nipple discharge"],
+      "treatment": "Surgery, radiation, chemotherapy",
+      "causes": "Genetics, hormonal factors",
+      "precautions": "Regular screenings, healthy lifestyle"
+    },
+    {
+      "name": "Cervical Cancer",
+      "symptoms": ["abnormal bleeding", "pelvic pain", "pain during intercourse"],
+      "treatment": "Surgery, chemotherapy, radiation",
+      "causes": "HPV infection",
+      "precautions": "Vaccination, regular screenings"
+    },
+    {
+      "name": "Lung Cancer",
+      "symptoms": ["persistent cough", "chest pain", "shortness of breath"],
+      "treatment": "Surgery, chemotherapy, radiation",
+      "causes": "Smoking, environmental factors",
+      "precautions": "Avoid smoking, regular check-ups"
+    },
+    {
+      "name": "Skin Cancer",
+      "symptoms": ["new or changing moles", "scaling", "itching"],
+      "treatment": "Surgery, radiation, chemotherapy",
+      "causes": "UV exposure",
+      "precautions": "Use sunscreen, avoid tanning beds"
+    },
+    {
+      "name": "Heart Attack",
+      "symptoms": ["chest pain", "shortness of breath", "nausea"],
+      "treatment": "Medications, lifestyle changes, surgery",
+      "causes": "Coronary artery disease",
+      "precautions": "Healthy lifestyle, regular check-ups"
+    },
+    {
+      "name": "Stroke",
+      "symptoms": ["sudden numbness", "confusion", "difficulty speaking"],
+      "treatment": "Emergency care, rehabilitation",
+      "causes": "Blocked or burst blood vessel",
+      "precautions": "Manage risk factors, regular check-ups"
+    },
+    {
+      "name": "Arrhythmia",
+      "symptoms": ["palpitations", "dizziness", "fainting"],
+      "treatment": "Medications, lifestyle changes",
+      "causes": "Heart issues",
+      "precautions": "Regular check-ups, manage stress"
+    },
+    {
+      "name": "Heart Failure",
+      "symptoms": ["shortness of breath", "fatigue", "swelling in legs"],
+      "treatment": "Medications, lifestyle changes",
+      "causes": "Coronary artery disease, hypertension",
+      "precautions": "Healthy diet, regular exercise"
+    },
+    {
+      "name": "Atrial Fibrillation",
+      "symptoms": ["palpitations", "fatigue", "dizziness"],
+      "treatment": "Medications, cardioversion",
+      "causes": "Heart issues",
+      "precautions": "Regular check-ups, manage stress"
+    },
+    {
+      "name": "Deep Vein Thrombosis (DVT)",
+      "symptoms": ["swelling", "pain in legs", "warmth in leg"],
+      "treatment": "Anticoagulants, compression stockings",
+      "causes": "Blood clots in veins",
+      "precautions": "Stay active, avoid long periods of immobility"
+    },
+    {
+      "name": "Chronic Kidney Disease",
+      "symptoms": ["fatigue", "swelling", "changes in urination"],
+      "treatment": "Medications, dialysis if severe",
+      "causes": "Diabetes, hypertension",
+      "precautions": "Regular check-ups, manage blood pressure"
+    },
+    {
+      "name": "Acid Reflux",
+      "symptoms": ["heartburn", "regurgitation", "difficulty swallowing"],
+      "treatment": "Medications, lifestyle changes",
+      "causes": "Weak lower esophageal sphincter",
+      "precautions": "Avoid trigger foods, eat smaller meals"
+    },
+    {
+      "name": "Gastroenteritis",
+      "symptoms": ["diarrhea", "vomiting", "abdominal cramps"],
+      "treatment": "Hydration, rest",
+      "causes": "Viral or bacterial infection",
+      "precautions": "Good hygiene, avoid contaminated food"
+    },
+    {
+      "name": "Influenza",
+      "symptoms": ["fever", "chills", "muscle aches"],
+      "treatment": "Rest, hydration, antiviral medications",
+      "causes": "Influenza virus",
+      "precautions": "Vaccination, avoid close contact"
+    },
+    {
+      "name": "Pneumonia",
+      "symptoms": ["cough", "fever", "shortness of breath"],
+      "treatment": "Antibiotics, rest",
+      "causes": "Bacterial or viral infection",
+      "precautions": "Vaccination, good hygiene"
+    },
+    {
+      "name": "Sinusitis",
+      "symptoms": ["nasal congestion", "facial pain", "fever"],
+      "treatment": "Decongestants, nasal sprays",
+      "causes": "Viral infection, allergies",
+      "precautions": "Avoid allergens, stay hydrated"
+    },
+    {
+      "name": "Allergies",
+      "symptoms": ["sneezing", "itchy eyes", "skin rash"],
+      "treatment": "Antihistamines, avoidance of allergens",
+      "causes": "Allergic reactions",
+      "precautions": "Identify and avoid allergens"
+    },
+    {
+      "name": "Chickenpox",
+      "symptoms": ["itchy rash", "fever", "fatigue"],
+      "treatment": "Rest, antihistamines",
+      "causes": "Varicella virus",
+      "precautions": "Vaccination, avoid close contact"
+    },
+    {
+      "name": "Shingles",
+      "symptoms": ["painful rash", "itching", "fever"],
+      "treatment": "Antivirals, pain relief",
+      "causes": "Reactivation of varicella virus",
+      "precautions": "Vaccination, avoid contact with pregnant women"
+    },
+    {
+      "name": "Measles",
+      "symptoms": ["fever", "cough", "red rash"],
+      "treatment": "Rest, hydration",
+      "causes": "Measles virus",
+      "precautions": "Vaccination, avoid contact with infected individuals"
+    },
+    {
+      "name": "Mumps",
+      "symptoms": ["swollen salivary glands", "fever", "headache"],
+      "treatment": "Rest, hydration",
+      "causes": "Mumps virus",
+      "precautions": "Vaccination, avoid close contact"
+    },
+    {
+      "name": "Whooping Cough",
+      "symptoms": ["severe cough", "breathlessness", "vomiting"],
+      "treatment": "Antibiotics, supportive care",
+      "causes": "Bacterial infection",
+      "precautions": "Vaccination, avoid close contact"
+    },
+    {
+      "name": "HIV/AIDS",
+      "symptoms": ["fever", "fatigue", "swollen lymph nodes"],
+      "treatment": "Antiretroviral therapy",
+      "causes": "HIV virus",
+      "precautions": "Safe sex practices, regular testing"
+    },
+    {
+      "name": "Malaria",
+      "symptoms": ["fever", "chills", "sweating"],
+      "treatment": "Antimalarial medications",
+      "causes": "Parasite from mosquito bites",
+      "precautions": "Use mosquito nets, insect repellents"
+    },
+    {
+      "name": "Dengue Fever",
+      "symptoms": ["high fever", "severe headache", "joint pain"],
+      "treatment": "Rest, hydration",
+      "causes": "Dengue virus from mosquito bites",
+      "precautions": "Avoid mosquito bites, use repellents"
+    },
+    {
+      "name": "Chronic Obstructive Pulmonary Disease (COPD)",
+      "symptoms": ["chronic cough", "shortness of breath", "wheezing", "fatigue", "chest tightness", "sputum production"],
+      "treatment": "Bronchodilators, steroids, oxygen therapy",
+      "causes": "Long-term exposure to irritants (e.g., smoking)",
+      "precautions": "Avoid smoking, stay active"
+    },
+    {
+      "name": "Heart Failure",
+      "symptoms": ["shortness of breath", "fatigue", "swelling in legs", "rapid heartbeat", "persistent cough", "confusion"],
+      "treatment": "Medications, lifestyle changes, surgery",
+      "causes": "Coronary artery disease, high blood pressure",
+      "precautions": "Healthy diet, regular check-ups"
+    },
+    {
+      "name": "Liver Cirrhosis",
+      "symptoms": ["fatigue", "itching", "swelling in abdomen", "nausea", "jaundice", "confusion"],
+      "treatment": "Medications, lifestyle changes, liver transplant",
+      "causes": "Chronic alcohol use, hepatitis",
+      "precautions": "Avoid alcohol, regular check-ups"
+    },
+    {
+      "name": "Bipolar Disorder",
+      "symptoms": ["extreme mood swings", "impulsiveness", "depression", "anxiety", "sleep disturbances", "difficulty concentrating"],
+      "treatment": "Medications, therapy",
+      "causes": "Genetics, environmental factors",
+      "precautions": "Regular therapy, medication adherence"
+    },
+    {
+      "name": "Multiple Myeloma",
+      "symptoms": ["bone pain", "fatigue", "frequent infections", "anemia", "kidney issues", "hypercalcemia"],
+      "treatment": "Chemotherapy, stem cell transplant, medications",
+      "causes": "Abnormal plasma cells in bone marrow",
+      "precautions": "Regular check-ups, healthy diet"
+    },
+    {
+      "name": "Pulmonary Fibrosis",
+      "symptoms": ["shortness of breath", "dry cough", "fatigue", "weight loss", "joint pain", "clubbed fingers"],
+      "treatment": "Medications, oxygen therapy, lung transplant",
+      "causes": "Environmental exposures, idiopathic",
+      "precautions": "Avoid irritants, regular monitoring"
+    },
+    {
+      "name": "Hepatic Encephalopathy",
+      "symptoms": ["confusion", "sleep disturbances", "personality changes", "poor coordination", "coma", "tremors"],
+      "treatment": "Lactulose, medications, dietary changes",
+      "causes": "Liver dysfunction",
+      "precautions": "Regular liver function monitoring"
+    },
+    {
+      "name": "Cystic Fibrosis",
+      "symptoms": ["persistent cough", "wheezing", "frequent lung infections", "poor growth", "difficulty breathing", "salty sweat"],
+      "treatment": "Medications, physiotherapy, lung transplant",
+      "causes": "Genetic mutation affecting mucus production",
+      "precautions": "Regular medical check-ups, adherence to treatment"
+    },
+    {
+      "name": "Rheumatoid Arthritis",
+      "symptoms": ["joint pain", "stiffness", "swelling", "fatigue", "fever", "anemia"],
+      "treatment": "Medications, physical therapy",
+      "causes": "Autoimmune response",
+      "precautions": "Regular exercise, maintain a healthy weight"
+    },
+    {
+      "name": "Systemic Lupus Erythematosus (SLE)",
+      "symptoms": ["fatigue", "joint pain", "skin rashes", "fever", "kidney issues", "chest pain"],
+      "treatment": "Medications, lifestyle changes",
+      "causes": "Autoimmune response",
+      "precautions": "Regular check-ups, sun protection"
+    },
+    {
+      "name": "Anemia",
+      "symptoms": ["fatigue", "weakness", "pale skin", "dizziness", "cold hands and feet", "irregular heartbeat"],
+      "treatment": "Iron supplements, dietary changes",
+      "causes": "Iron deficiency, chronic disease",
+      "precautions": "Regular monitoring, balanced diet"
+    },
+    {
+      "name": "Psoriasis",
+      "symptoms": ["red patches of skin", "dry, cracked skin", "itching", "thickened nails", "swollen joints", "burning sensation"],
+      "treatment": "Topical treatments, phototherapy, medications",
+      "causes": "Immune system dysfunction",
+      "precautions": "Avoid triggers, regular skin care"
+    },
+    {
+      "name": "Gout",
+      "symptoms": ["intense joint pain", "redness", "swelling", "stiffness", "fever", "tophi formation"],
+      "treatment": "Medications, lifestyle changes",
+      "causes": "High uric acid levels",
+      "precautions": "Avoid purine-rich foods, stay hydrated"
+    },
+    {
+      "name": "Endometriosis",
+      "symptoms": ["pelvic pain", "heavy periods", "pain during intercourse", "fatigue", "digestive issues", "infertility"],
+      "treatment": "Medications, surgery, lifestyle changes",
+      "causes": "Endometrial tissue growth outside the uterus",
+      "precautions": "Regular check-ups, manage stress"
+    },
+    {
+      "name": "Ovarian Cancer",
+      "symptoms": ["abdominal bloating", "fatigue", "frequent urination", "weight loss", "pelvic pain", "changes in bowel habits"],
+      "treatment": "Surgery, chemotherapy, radiation",
+      "causes": "Genetic factors, age",
+      "precautions": "Regular screenings, healthy lifestyle"
+    },
+    {
+      "name": "Pancreatic Cancer",
+      "symptoms": ["abdominal pain", "weight loss", "jaundice", "nausea", "loss of appetite", "new-onset diabetes"],
+      "treatment": "Surgery, chemotherapy, radiation",
+      "causes": "Genetic factors, smoking",
+      "precautions": "Avoid smoking, healthy diet"
+    },
+    {
+      "name": "Cervical Cancer",
+      "symptoms": ["abnormal bleeding", "pelvic pain", "pain during intercourse", "fatigue", "weight loss", "increased urinary frequency"],
+      "treatment": "Surgery, chemotherapy, radiation",
+      "causes": "Human papillomavirus (HPV)",
+      "precautions": "Regular screenings, vaccination"
+    },
+    {
+      "name": "Chronic Kidney Disease (CKD)",
+      "symptoms": ["fatigue", "swelling", "changes in urination", "nausea", "itching", "high blood pressure"],
+      "treatment": "Diet changes, medications, dialysis",
+      "causes": "Diabetes, hypertension",
+      "precautions": "Regular check-ups, healthy lifestyle"
+    },
+    {
+      "name": "Cerebral Palsy",
+      "symptoms": ["difficulty walking", "poor coordination", "muscle stiffness", "seizures", "difficulty with speech", "intellectual disabilities"],
+      "treatment": "Therapies, medications, surgery",
+      "causes": "Brain injury or abnormal brain development",
+      "precautions": "Regular therapy, supportive care"
+    },
+    {
+      "name": "Epilepsy",
+      "symptoms": ["seizures", "confusion", "staring spells", "loss of awareness", "tremors", "aura"],
+      "treatment": "Medications, lifestyle changes, surgery",
+      "causes": "Abnormal brain activity",
+      "precautions": "Regular monitoring, medication adherence"
+    },
+    {
+      "name": "Acute Respiratory Distress Syndrome (ARDS)",
+      "symptoms": ["shortness of breath", "rapid breathing", "confusion", "low blood pressure", "blue lips or face", "persistent cough"],
+      "treatment": "Oxygen therapy, mechanical ventilation, medications",
+      "causes": "Various conditions causing lung inflammation",
+      "precautions": "Avoid smoking, maintain a healthy lifestyle"
+    },
+    {
+      "name": "Sepsis",
+      "symptoms": ["fever", "rapid heart rate", "confusion", "difficulty breathing", "low blood pressure", "chills"],
+      "treatment": "Antibiotics, intravenous fluids, supportive care",
+      "causes": "Body's extreme response to infection",
+      "precautions": "Prompt treatment of infections, good hygiene"
+    },
+    {
+      "name": "Cholangitis",
+      "symptoms": ["abdominal pain", "jaundice", "fever", "itching", "confusion", "dark urine"],
+      "treatment": "Antibiotics, surgery",
+      "causes": "Bile duct infection",
+      "precautions": "Regular monitoring of liver function"
+    },
+    {
+      "name": "Thyroid Cancer",
+      "symptoms": ["lump in neck", "swallowing difficulties", "changes in voice", "persistent cough", "weight changes", "neck pain"],
+      "treatment": "Surgery, radioactive iodine, hormone therapy",
+      "causes": "Genetic factors, radiation exposure",
+      "precautions": "Regular check-ups, monitor thyroid function"
+    },
+    {
+      "name": "Chronic Sinusitis",
+      "symptoms": ["nasal congestion", "facial pain", "reduced sense of smell", "cough", "bad breath", "fatigue"],
+      "treatment": "Nasal corticosteroids, saline irrigation",
+      "causes": "Allergies, infections",
+      "precautions": "Avoid allergens, stay hydrated"
+    },
+    {
+      "name": "Dementia",
+      "symptoms": ["memory loss", "confusion", "difficulty with tasks", "changes in mood", "disorientation", "personality changes"],
+      "treatment": "Medications, supportive care",
+      "causes": "Age, genetics, brain damage",
+      "precautions": "Mental stimulation, healthy lifestyle"
+    },
+    {
+      "name": "Chronic Pain Syndrome",
+      "symptoms": ["persistent pain", "fatigue", "sleep disturbances", "depression", "anxiety", "difficulty concentrating"],
+      "treatment": "Pain management, therapy",
+      "causes": "Varied, often chronic conditions",
+      "precautions": "Regular medical care, healthy lifestyle"
+    },
+    {
+      "name": "Post-Traumatic Stress Disorder (PTSD)",
+      "symptoms": ["flashbacks", "avoidance", "hyperarousal", "negative mood", "sleep disturbances", "irritability"],
+      "treatment": "Therapy, medications",
+      "causes": "Traumatic experiences",
+      "precautions": "Support systems, coping strategies"
+    },
+    {
+      "name": "Fibromyalgia",
+      "symptoms": ["widespread pain", "fatigue", "sleep disturbances", "cognitive difficulties", "anxiety", "depression"],
+      "treatment": "Medications, lifestyle changes",
+      "causes": "Unknown, possibly genetic",
+      "precautions": "Regular exercise, stress management"
+    },
+    {
+      "name": "Bacterial Meningitis",
+      "symptoms": ["fever", "stiff neck", "headache", "nausea", "sensitivity to light", "confusion"],
+      "treatment": "Antibiotics, supportive care",
+      "causes": "Bacterial infection",
+      "precautions": "Vaccination, prompt treatment of infections"
+    },
+    {
+      "name": "Chronic Fatigue Syndrome",
+      "symptoms": ["extreme fatigue", "muscle pain", "sleep disturbances", "cognitive difficulties", "sore throat", "joint pain"],
+      "treatment": "Lifestyle changes, therapy",
+      "causes": "Unknown, possibly viral infections",
+      "precautions": "Pacing activities, stress management"
+    },
+    {
+      "name": "Colorectal Cancer",
+      "symptoms": ["changes in bowel habits", "blood in stool", "abdominal discomfort", "weight loss", "fatigue", "narrow stools"],
+      "treatment": "Surgery, chemotherapy, radiation",
+      "causes": "Genetics, lifestyle factors",
+      "precautions": "Regular screenings, healthy diet"
+    },
+    {
+      "name": "Hemophilia",
+      "symptoms": ["unexplained bleeding", "bruising", "joint pain", "fatigue", "nausea", "dizziness"],
+      "treatment": "Clotting factor replacement therapy",
+      "causes": "Genetic mutation",
+      "precautions": "Avoiding high-risk activities"
+    },
+    {
+      "name": "Zika Virus",
+      "symptoms": ["fever", "rash", "joint pain"],
+      "treatment": "Rest, hydration",
+      "causes": "Zika virus from mosquito bites",
+      "precautions": "Avoid mosquito bites, use repellents"
+    },
+    {
+      "name": "West Nile Virus",
+      "symptoms": ["fever", "headache", "body aches"],
+      "treatment": "Supportive care",
+      "causes": "West Nile virus from mosquito bites",
+      "precautions": "Avoid mosquito bites, use repellents"
+    },
+    {
+      "name": "Chikungunya",
+      "symptoms": ["fever", "joint pain", "rash"],
+      "treatment": "Rest, hydration",
+      "causes": "Chikungunya virus from mosquito bites",
+      "precautions": "Avoid mosquito bites, use repellents"
+    },
+    {
+      "name": "Lyme Disease",
+      "symptoms": ["fever", "fatigue", "skin rash"],
+      "treatment": "Antibiotics",
+      "causes": "Bacterial infection from tick bites",
+      "precautions": "Avoid tick bites, check for ticks after outdoor activities"
+    },
+    {
+      "name": "Rocky Mountain Spotted Fever",
+      "symptoms": ["fever", "rash", "headache"],
+      "treatment": "Antibiotics",
+      "causes": "Bacterial infection from tick bites",
+      "precautions": "Avoid tick bites, check for ticks after outdoor activities"
+    },
+    {
+      "name": "Scabies",
+      "symptoms": ["itchy skin", "rash", "inflammation"],
+      "treatment": "Topical medications",
+      "causes": "Mites infestation",
+      "precautions": "Avoid close contact, wash clothes regularly"
+    },
+    {
+      "name": "Ringworm",
+      "symptoms": ["red, itchy patches", "scaly skin"],
+      "treatment": "Antifungal creams",
+      "causes": "Fungal infection",
+      "precautions": "Good hygiene, avoid sharing personal items"
+    },
+    {
+      "name": "Athlete's Foot",
+      "symptoms": ["itchy, red skin", "blisters", "scaling"],
+      "treatment": "Antifungal creams",
+      "causes": "Fungal infection",
+      "precautions": "Good hygiene, keep feet dry"
+    },
+    {
+      "name": "Bacterial Vaginosis",
+      "symptoms": ["vaginal discharge", "odor", "itching"],
+      "treatment": "Antibiotics",
+      "causes": "Imbalance of bacteria",
+      "precautions": "Good hygiene, avoid douching"
+    },
+    {
+      "name": "Yeast Infection",
+      "symptoms": ["itchy, burning sensation", "vaginal discharge"],
+      "treatment": "Antifungal medications",
+      "causes": "Fungal overgrowth",
+      "precautions": "Good hygiene, avoid irritants"
+    },
+    {
+      "name": "Chlamydia",
+      "symptoms": ["abnormal discharge", "painful urination"],
+      "treatment": "Antibiotics",
+      "causes": "Bacterial infection",
+      "precautions": "Safe sex practices, regular testing"
+    },
+    {
+      "name": "Gonorrhea",
+      "symptoms": ["abnormal discharge", "painful urination"],
+      "treatment": "Antibiotics",
+      "causes": "Bacterial infection",
+      "precautions": "Safe sex practices, regular testing"
+    },
+    {
+      "name": "Syphilis",
+      "symptoms": ["sores", "rash", "fever"],
+      "treatment": "Antibiotics",
+      "causes": "Bacterial infection",
+      "precautions": "Safe sex practices, regular testing"
+    },
+    {
+      "name": "Trichomoniasis",
+      "symptoms": ["vaginal discharge", "itching", "painful urination"],
+      "treatment": "Antibiotics",
+      "causes": "Parasitic infection",
+      "precautions": "Safe sex practices, regular testing"
+    },
+    {
+      "name": "Pelvic Inflammatory Disease",
+      "symptoms": ["pelvic pain", "fever", "abnormal discharge"],
+      "treatment": "Antibiotics",
+      "causes": "Bacterial infection",
+      "precautions": "Safe sex practices, regular testing"
+    },
+    {
+      "name": "Endometriosis",
+      "symptoms": ["pelvic pain", "heavy periods", "pain during intercourse"],
+      "treatment": "Pain relief, hormonal therapies",
+      "causes": "Unknown",
+      "precautions": "Regular check-ups, manage pain"
+    },
+    {
+      "name": "Fibroids",
+      "symptoms": ["heavy menstrual bleeding", "pelvic pain", "frequent urination"],
+      "treatment": "Medications, surgery if severe",
+      "causes": "Hormonal factors",
+      "precautions": "Regular check-ups, manage symptoms"
+    },
+    {
+      "name": "Ovarian Cysts",
+      "symptoms": ["pelvic pain", "bloating", "menstrual irregularities"],
+      "treatment": "Pain relief, monitoring",
+      "causes": "Hormonal changes",
+      "precautions": "Regular check-ups, manage symptoms"
+    },
+    {
+      "name": "Menopause",
+      "symptoms": ["hot flashes", "night sweats", "mood changes"],
+      "treatment": "Hormonal therapy, lifestyle changes",
+      "causes": "Natural aging process",
+      "precautions": "Regular check-ups, healthy lifestyle"
+    },
+    {
+      "name": "Testicular Cancer",
+      "symptoms": ["lump in testicle", "pain in testicle", "swelling"],
+      "treatment": "Surgery, chemotherapy",
+      "causes": "Genetics, age",
+      "precautions": "Regular self-exams, medical check-ups"
+    },
+    {
+      "name": "Thyroid Disorders",
+      "symptoms": ["weight changes", "fatigue", "mood changes"],
+      "treatment": "Medications, lifestyle changes",
+      "causes": "Autoimmune issues, iodine deficiency",
+      "precautions": "Regular check-ups, manage symptoms"
+    },
+    {
+      "name": "Vitamin D Deficiency",
+      "symptoms": ["fatigue", "bone pain", "muscle weakness"],
+      "treatment": "Vitamin D supplements, sun exposure",
+      "causes": "Lack of sunlight, poor diet",
+      "precautions": "Get sunlight, eat vitamin D-rich foods"
+    },
+    {
+      "name": "Rheumatoid Arthritis",
+      "symptoms": ["joint pain", "stiffness", "swelling"],
+      "treatment": "Medications, physical therapy",
+      "causes": "Autoimmune response",
+      "precautions": "Regular check-ups, manage symptoms"
+    },
+    {
+      "name": "Psoriatic Arthritis",
+      "symptoms": ["joint pain", "skin rash", "fatigue"],
+      "treatment": "Medications, physical therapy",
+      "causes": "Autoimmune response",
+      "precautions": "Regular check-ups, manage symptoms"
+    },
+    {
+      "name": "Carpal Tunnel Syndrome",
+      "symptoms": ["numbness", "tingling", "pain in hand"],
+      "treatment": "Wrist splints, physical therapy",
+      "causes": "Repetitive motions",
+      "precautions": "Take breaks, maintain proper posture"
+    },
+    {
+      "name": "Tennis Elbow",
+      "symptoms": ["pain on the outer elbow", "weak grip", "pain when lifting"],
+      "treatment": "Rest, physical therapy",
+      "causes": "Repetitive motion",
+      "precautions": "Proper technique, take breaks"
+    },
+    {
+      "name": "Chronic Fatigue Syndrome",
+      "symptoms": ["extreme fatigue", "sleep disturbances", "muscle pain"],
+      "treatment": "Symptom management, lifestyle changes",
+      "causes": "Unknown",
+      "precautions": "Manage stress, get enough rest"
+    },
+    {
+      "name": "Sleep Apnea",
+      "symptoms": ["loud snoring", "gasping during sleep", "daytime fatigue"],
+      "treatment": "Lifestyle changes, CPAP machine",
+      "causes": "Obstructed airways",
+      "precautions": "Maintain a healthy weight, avoid alcohol"
+    }
+  ]
+  
+]

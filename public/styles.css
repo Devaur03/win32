@@ -1,0 +1,436 @@
+/* Global reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F2F2EC;
+    background-image: url('resultsbg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #394B42;
+}
+
+/* Container for main content */
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Header styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    background-color: #FFFFFF;
+    background-image: url('resultsbg2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Logo styling */
+/* Increase the width of the logo to make it wider */
+.logo img {
+    width: 180px; /* Increased width from 120px to 180px to make the logo wider */
+    border-radius: 15px; /* Keep the rounded corners */
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.4); /* Add subtle shadow for a more refined look */
+    background-color: white; /* Keep white background to ensure logo visibility */
+    padding: 10px; /* Padding around the logo to maintain spacing */
+}
+
+
+/* Navigation styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #394B42;
+    font-weight: bold;
+}
+
+.nav-about {
+    list-style-type: none;
+    display: flex;
+    margin-left: auto;
+}
+
+.nav-btn {
+    padding: 10px 20px;
+    background-color: #394B42;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Aligns search bar and image to the top */
+    padding: 50px 0;
+    gap: 20px; /* Adds space between the two quadrants */
+}
+
+/* Text section */
+.text-section {
+    max-width: 50%;
+    display: flex;
+    flex-direction: column; /* Align items vertically */
+}
+
+.text-section h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #394B42;
+}
+
+.search-text {
+    text-align: center;
+    color: #394B42;
+    margin-bottom: 20px;
+    font-size: 1.5rem; /* Optional: Change font size */
+}
+
+/* New Search Container */
+.search-container {
+    display: flex;
+    align-items: center; /* Aligns items vertically */
+    gap: 20px; /* Space between the search bar and image */
+    width: 100%; /* Full width */
+}
+
+/* Updated Search Bar Styles */
+.search-bar {
+    flex: 1; /* Ensures search bar takes up available space */
+    display: flex;
+    gap: 10px; /* Space between input and button */
+}
+
+.search-bar input {
+    padding: 10px;
+    border: 2px solid #394B42;
+    border-radius: 5px;
+    flex-grow: 1; /* Makes the input expand to fill available space */
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    background-color: #394B42;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Add styles for dropdown buttons */
+.dropdown-container {
+    position: relative;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.dropdown-btn {
+    padding: 10px 15px;
+    background-color: #394B42;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 25%; /* 1/4th of the search bar */
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #F9F9F9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #F1F1F1;
+}
+
+.dropdown-container:hover .dropdown-content {
+    display: block;
+}
+
+/* Updated Image Section Styles */
+.image-section {
+    display: flex;
+    justify-content: flex-end; /* Align image to the right */
+    align-items: center;
+}
+
+.image-section img {
+    width: 250px; /* Adjust image size as needed */
+    border-radius: 15px;
+}
+
+/* Styles for results section */
+#results-section {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+#results-section h2, #disease-details h2 {
+    color: #2B3A32;
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+#results-section p, #disease-details p {
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    color: #495A48;
+}
+
+/* Button styles */
+#show-more-btn, .nav-btn, .arrow {
+    padding: 10px 25px;
+    background-color: #2B3A32;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#show-more-btn:hover, .nav-btn:hover, .arrow:hover {
+    background-color: #394B42;
+}
+
+/* Collapsible block styles */
+.result-block {
+    border: 2px solid #394B42;
+    border-radius: 8px;
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #FAFAF6;
+    transition: background-color 0.3s ease;
+}
+
+.result-block:hover {
+    background-color: #F2F2EC;
+}
+
+.arrow {
+    display: inline-block;
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: #FFFFFF;
+    transition: transform 0.2s ease;
+}
+
+.content {
+    display: none;
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.content.show {
+    display: block;
+    animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* New Content Box Styling */
+.content-box {
+    max-width: 1400px; /* Increased from 1100px to make it wider */
+    margin: 40px auto;
+    background-color: rgba(255, 255, 255, 0.549);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+/* Ensure the content inside stays within the box */
+.main-content {
+    padding: 20px;
+}
+
+/* Optional Media Query for smaller screens */
+@media (max-width: 768px) {
+    .search-container {
+        flex-direction: column; /* Stack search bar and image vertically on small screens */
+        align-items: flex-start; /* Align to the left */
+    }
+
+    .image-section img {
+        width: 100%; /* Image will take full width on small screens */
+    }
+}
+
+#animated-text {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #394B42;
+    margin-bottom: 20px;
+    margin-top: -260px; /* Adjust this value to move the text higher */
+}
+
+/* Wrapper for text, image, and search bar */
+.content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px; /* Add space between the content and the search bar */
+    position: relative; /* Ensures proper positioning */
+    height: calc(100vh - 120px); /* Full height minus header height */
+}
+
+.text-section {
+    flex: 1;
+    text-align: left; /* Aligns text to the left */
+    padding-left: 20px; /* Adds padding from the left */
+    order: 1; /* Ensure text appears first */
+}
+
+#animated-text {
+    font-size: 4rem; /* Increase the size from 2.5rem to 3rem */
+    font-weight: bold;
+    color: #394B42;
+    margin-bottom: 20px;
+    margin-top: -260px; /* Adjust this value if needed */
+}
+
+/* Image section locked to the left */
+.image-section {
+    flex: 1; /* Ensures the image section takes up available space */
+    text-align: left; /* Aligns image to the left */
+    order: 1; /* Ensures image appears on the left */
+}
+
+.image-section img {
+    max-width: 100%; /* Ensures image scales correctly */
+    height: auto;
+    max-height: 350px; /* Optional: controls the maximum height */
+}
+
+/* Description Section */
+.description {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #e8f5e9; /* Light green background */
+    border-left: 5px solid #4CAF50; /* Green left border */
+    border-radius: 4px;
+    font-size: 18px;
+    color: #333;
+    line-height: 1.6;
+}
+
+#description-text {
+    font-style: italic;
+}
+
+/* Search bar styling */
+.search-bar {
+    display: flex;
+    justify-content: center; /* Centers the search bar */
+    position: absolute;
+    bottom: 800px; /* Move it slightly upward from the bottom */
+    left: 130px; /* Add space from the left edge */
+    right: 130px; /* Add space from the right edge */
+    margin-top: 20px; /* Adds space between content and search bar */
+}
+
+.search-bar input {
+    width: 70%; /* Large width for the input field */
+    padding: 15px; /* Restore larger padding for better UX */
+    font-size: 1.2rem; /* Larger font size */
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.search-bar button {
+    padding: 15px 30px; /* Restore the padding to make the button larger */
+    font-size: 1.2rem; /* Increase font size */
+    background-color: #394B42;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #556b56; /* Slight color change on hover */
+}
+
+/* Optional Media Query for smaller screens */
+@media (max-width: 768px) {
+    .content-wrapper {
+        flex-direction: column; /* Stack search bar and image vertically on small screens */
+        align-items: flex-start; /* Align to the left */
+    }
+
+    .image-section img {
+        width: 100%; /* Image will take full width on small screens */
+    }
+
+    .text-section {
+        text-align: center;
+        padding-right: 0; /* Remove padding for smaller screens */
+    }
+
+    .search-bar {
+        position: relative; /* Removes absolute positioning on smaller screens */
+    }
+}
+
+/* Adjusted paragraph styling for #description-text to match the search bar */
+.description-text {
+    width: 80%;             /* Increase width for a more expansive look */
+    margin: 30px auto;       /* Center align the text block */
+    font-size: 18px;         /* Slightly larger font for better readability */
+    line-height: 1.8;        /* Increased line spacing for clarity */
+    color: #444;             /* Softer dark color for better readability */
+    text-align: justify;     /* Justify the text for neat alignment */
+    font-family: 'Arial', sans-serif; /* Clean font */
+}
+
+
+#description-text br {
+    margin-bottom: 10px;
+}
+
+#description-text strong {
+    font-weight: bold;
+}
+
+#description-text em {
+    font-style: italic;
+}

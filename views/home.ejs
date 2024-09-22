@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maven Care</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="content-box">
+        <!-- Header with logo and navigation -->
+        <header>
+            <div class="container">
+                <div class="logo">
+                    <img src="logo.jpg" alt="Maven Logo">
+                </div>
+            </div>
+        </header>
+
+        <!-- Main section -->
+        <main>
+            <div class="container main-content">
+                <div class="search-container">
+                    <div class="content-wrapper">
+                        <div class="text-section">
+                            <h2 id="animated-text"></h2>
+                        </div>
+                    </div>
+
+                    <!-- Form for entering symptoms -->
+                    <form action="/results" method="POST" class="search-bar">
+                        <input type="text" name="symptoms" placeholder="Enter your symptoms" />
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+
+                <!-- New description section -->
+                <div class="description">
+                    <p class="description-text">
+                        Enter Your Symptoms: Effortlessly input your symptoms and receive immediate feedback.
+                    
+                        <br><br>Accurate Disease Matching: Our advanced algorithm analyzes your symptoms and provides a list of potential diseases.
+                    
+                        <br><br>User-Friendly Experience: Enjoy a seamless interface designed for easy navigation and symptom entry.
+                    
+                        <br><br>Personalized Results: Get tailored information, including risk categories and detailed disease descriptions.
+                    
+                        <br><br>Empower Your Health Journey: Equip yourself with knowledge and insights to guide your next steps toward better health.
+                    </p>
+                </div>
+            </div>
+        </main>
+
+        <script>
+            // Typewriter effect for the text
+            const text = "Knowledge is the first step to healing - start your journey.";
+            let index = 0;
+
+            function typeWriter() {
+                if (index < text.length) {
+                    document.getElementById("animated-text").innerHTML += text.charAt(index);
+                    index++;
+                    setTimeout(typeWriter, 100); // Adjust the speed by changing the time (in milliseconds)
+                }
+            }
+
+            // Trigger the typewriter effect when the page loads
+            window.onload = function () {
+                typeWriter();
+            };
+        </script>
+    </div>
+</body>
+</html>

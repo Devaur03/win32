@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Diagnosis Results</title>
+    <link rel="stylesheet" href="rizzstyle.css"> <!-- Ensure correct path -->
+</head>
+<body>
+    <div class="results-container"> 
+        <h1>Diagnosis Results</h1>
+
+        <ul class="results-list">
+            <% results.forEach(disease => { %> 
+                <li class="result-item">
+                    <h2 class="disease-name"><%= disease.name %></h2>
+
+                    <!-- Symptoms Row: Displaying all symptoms -->
+                    <p><strong>Symptoms:</strong></p>
+                    <ul class="symptoms-list">
+                        <% disease.symptoms.forEach(symptom => { %>
+                            <li><%= symptom %></li>
+                        <% }); %>
+                    </ul>
+
+                    <!-- Treatment, Causes, Precautions -->
+                    <p><strong>Treatment:</strong> <%= disease.treatment %></p>
+                    <p><strong>Causes:</strong> <%= disease.causes %></p>
+                    <p><strong>Precautions:</strong> <%= disease.precautions %></p>
+                </li>
+            <% }); %>
+
+            <% if (results.length === 0) { %> 
+                <p class="no-results">No matching conditions found.</p> 
+            <% } %>
+        </ul>
+    </div>
+</body>
+</html>
