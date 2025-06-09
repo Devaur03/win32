@@ -141,7 +141,7 @@ Our **mascot** is designed to be a **friendly virtual coach** — always cheerfu
 
 * [@kunal9686](https://github.com/kunal9686) - Lead Developer
 * [@Devaur03](https://github.com/Devaur03) - AI Integration Specialist
-* @[raghavnaithani](https://github.com/raghavnaithani) - Backend Specialist
+* [@raghavnaithani](https://github.com/raghavnaithani) - Backend Specialist
 
 Feel free to submit PRs or issues if you'd like to contribute! We welcome:
 
@@ -183,8 +183,8 @@ copies or substantial portions of the Software.
 
 ## 📞 Support & Contact
 
-* 🐛 Report bugs: [Create an issue](https://github.com/your-username/ai-fitness-buddy/issues)
-* 💡 Feature requests: [Discussions](https://github.com/your-username/ai-fitness-buddy/discussions)
+* 🐛 Report bugs: [Create an issue](https://www.linkedin.com/in/devansh-gaur-a662a8286/)
+* 💡 Feature requests: [Discussions](https://www.linkedin.com/in/devansh-gaur-a662a8286/)
 * 📧 Email: dimgaur390@gmail.com
 
 ---
